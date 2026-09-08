@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Portrait placeholder">
+  <rect width="400" height="500" fill="#e4e4e6"/>
+  <g stroke="#b7b7ba" stroke-width="1">
+    <path d="M0 125h400M0 250h400M0 375h400M100 0v500M200 0v500M300 0v500"/>
+  </g>
+  <g stroke="#7a7a7d" stroke-width="1">
+    <path d="M200 232v36M182 250h36"/>
+  </g>
+  <g fill="#5d5d60" font-family="Barlow Condensed, system-ui, sans-serif" text-anchor="middle">
+    <text x="200" y="300" font-size="19" letter-spacing="1.6">PORTRAIT</text>
+    <text x="200" y="324" font-size="13" letter-spacing="1.2" fill="#7a7a7d">4 : 5 — REPLACE THIS FILE</text>
+  </g>
+</svg>
