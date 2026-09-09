@@ -7,6 +7,38 @@
 <meta name="description" content="Three projects in detail: the problem, the approach, and what changed.">
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "CreativeWork",
+      "position": 1,
+      "name": "Atlas World Sports",
+      "url": "https://bosanacbojan.github.io/projects.html#p1",
+      "about": "Sports app combining live league scores, personalized news, and sportsbook betting lines.",
+      "creator": { "@type": "Person", "name": "Bojan Bosanac" }
+    },
+    {
+      "@type": "CreativeWork",
+      "position": 2,
+      "name": "Wisk",
+      "url": "https://bosanacbojan.github.io/projects.html#p2",
+      "about": "Restaurant management platform backend integrations across 30+ POS systems.",
+      "creator": { "@type": "Person", "name": "Bojan Bosanac" }
+    },
+    {
+      "@type": "CreativeWork",
+      "position": 3,
+      "name": "Zenjob",
+      "url": "https://bosanacbojan.github.io/projects.html#p3",
+      "about": "Digital staffing marketplace iOS app for on-demand shift booking.",
+      "creator": { "@type": "Person", "name": "Bojan Bosanac" }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <div class="page">
@@ -22,7 +54,7 @@
   </nav>
 
   <header class="wrap proj-header">
-    <h6>Project index · 2020 — Present</h6>
+    <h6>Project index · 2020 — 2026</h6>
     <div class="proj-header-grid">
       <h1 class="proj-title-big">Selected<br>projects</h1>
       <p class="proj-intro">Three projects from ongoing freelance work: what the problem was, what I built, and what changed. Delivered as part of long-term engagements with international clients.</p>
@@ -43,30 +75,30 @@
       <div class="proj-kind text-muted">Sports &amp; Betting</div>
       <div class="proj-meta">
         <div><span class="label text-muted">Role</span>iOS Developer</div>
-        <div><span class="label text-muted">Year</span>2020 — Present</div>
-        <div><span class="label text-muted">Scale</span>Live production app</div>
+        <div><span class="label text-muted">Duration</span>2021 — 2026</div>
+        <div><span class="label text-muted">URL</span><a href="https://atlasworldsports.com/" target="_blank" rel="noopener">atlasworldsports.com ↗</a></div>
       </div>
     </div>
     <div>
       <h2 class="proj-name">Atlas World Sports</h2>
-      <p class="proj-lede">A live sports tracking and betting companion app, with real-time data at the core of the experience.</p>
+      <p class="proj-lede">A sports app that kills FOMO by combining live league scores, personalized news, and legal sportsbook betting lines in one place.</p>
       <div class="tag-row">
         <span class="tag tag-outline">Swift</span>
         <span class="tag tag-outline">UIKit</span>
-        <span class="tag tag-outline">Real-time data</span>
+        <span class="tag tag-outline">VIP Architecture</span>
       </div>
       <div class="pao">
         <div>
           <h6>Problem</h6>
-          <p>Bettors need live, trustworthy match data to make decisions in the moment, tied directly into the betting experience.</p>
+          <p>Sports fans needed one place to track live scores, personalized news, and their sportsbook bets without missing a moment.</p>
         </div>
         <div>
           <h6>Approach</h6>
-          <p>Owned the iOS lifecycle end to end — architecture, feature delivery, App Store releases, and production support — integrating real-time data feeds into the app.</p>
+          <p>Owned the entire app lifecycle — concept, design, testing, App Store release, and support — building a VIP + Coordinator architecture with Clean Code and 90%+ test coverage, setting up the CI/CD pipeline, shipping push notifications and API-based live score updates, and regularly advising the PM and backend team on what to build and how.</p>
         </div>
         <div>
           <h6>Outcome</h6>
-          <p>A live companion app in production on the App Store, keeping bettors updated with real-time sports data.</p>
+          <p>A production app that shipped live scores, personalized news, and betting-line tracking to the App Store; later rebuilt by a new team as the product evolved.</p>
         </div>
       </div>
     </div>
@@ -75,33 +107,34 @@
   <article id="p2" class="wrap proj">
     <div>
       <div class="proj-num">02</div>
-      <div class="proj-kind text-muted">Backend &amp; POS</div>
+      <div class="proj-kind text-muted">Backend &amp; POS Integrations</div>
       <div class="proj-meta">
-        <div><span class="label text-muted">Role</span>Backend Developer</div>
-        <div><span class="label text-muted">Year</span>2020 — Present</div>
-        <div><span class="label text-muted">Scale</span>POS integrations incl. Lightspeed K</div>
+        <div><span class="label text-muted">Role</span>Swift Developer</div>
+        <div><span class="label text-muted">Duration</span>2023 — 2026</div>
+        <div><span class="label text-muted">URL</span><a href="https://www.wisk.ai/" target="_blank" rel="noopener">wisk.ai ↗</a></div>
       </div>
     </div>
     <div>
       <h2 class="proj-name">Wisk</h2>
-      <p class="proj-lede">Backend integrations and POS synchronization workflows for a restaurant management platform.</p>
+      <p class="proj-lede">The leading restaurant management platform — analytics, recipe costing, and bar inventory software for running a bar or restaurant with ease.</p>
       <div class="tag-row">
-        <span class="tag tag-outline">Swift Vapor</span>
+        <span class="tag tag-outline">Swift</span>
+        <span class="tag tag-outline">Vapor</span>
+        <span class="tag tag-outline">PHP</span>
         <span class="tag tag-outline">Kotlin</span>
-        <span class="tag tag-outline">POS integration</span>
       </div>
       <div class="pao">
         <div>
           <h6>Problem</h6>
-          <p>Restaurant operators needed reliable synchronization between Wisk and third-party point-of-sale systems, including Lightspeed K.</p>
+          <p>Wisk's analytics, recipe costing, and inventory tools are only as accurate as the POS data feeding them, and operators run on dozens of different systems.</p>
         </div>
         <div>
           <h6>Approach</h6>
-          <p>Built backend integrations and POS synchronization workflows using Swift Vapor and Kotlin within a distributed systems environment.</p>
+          <p>Built and maintained backend integration services in Swift, Vapor, PHP, and Kotlin, connecting over 30 POS systems — including Lightspeed, Square, Toast, and Clover — over API, email, and file-based feeds, while reviewing code to keep the integrations consistent and maintainable.</p>
         </div>
         <div>
           <h6>Outcome</h6>
-          <p>Dependable POS sync workflows supporting Wisk's restaurant management platform in production.</p>
+          <p>30+ POS systems integrated and kept in sync, feeding accurate, real-time data into Wisk's platform for bar and restaurant operators.</p>
         </div>
       </div>
     </div>
@@ -113,30 +146,29 @@
       <div class="proj-kind text-muted">Marketplace</div>
       <div class="proj-meta">
         <div><span class="label text-muted">Role</span>iOS Developer</div>
-        <div><span class="label text-muted">Year</span>2020 — Present</div>
-        <div><span class="label text-muted">Scale</span>Large workforce marketplace</div>
+        <div><span class="label text-muted">Duration</span>Oct 2021 — Jul 2022</div>
+        <div><span class="label text-muted">URL</span><a href="https://www.zenjob.com/en/" target="_blank" rel="noopener">zenjob.com ↗</a></div>
       </div>
     </div>
     <div>
       <h2 class="proj-name">Zenjob</h2>
-      <p class="proj-lede">iOS features and architectural improvements for a large-scale workforce marketplace platform.</p>
+      <p class="proj-lede">A digital staffing marketplace where talents book flexible, hourly jobs and companies fill temporary shifts across logistics, e-commerce, retail, and service.</p>
       <div class="tag-row">
         <span class="tag tag-outline">Swift</span>
         <span class="tag tag-outline">UIKit</span>
-        <span class="tag tag-outline">Refactoring</span>
       </div>
       <div class="pao">
         <div>
           <h6>Problem</h6>
-          <p>A fast-growing workforce marketplace needed more reliable, maintainable iOS code as the app scaled.</p>
+          <p>Companies needed flexible, on-demand staff, while workers wanted control over when, where, and for whom they worked.</p>
         </div>
         <div>
           <h6>Approach</h6>
-          <p>Built and maintained iOS features, and improved application reliability and code quality through refactoring and architectural improvements.</p>
+          <p>Owned the entire app lifecycle — concept, design, testing, deployment, release to stores, and support — implementing UI in close collaboration with designers.</p>
         </div>
         <div>
           <h6>Outcome</h6>
-          <p>A more reliable, maintainable iOS codebase supporting continued growth of the marketplace.</p>
+          <p>Shipped a production iOS app helping power a platform booking 40,000+ workers a month across logistics, e-commerce, retail, and service roles.</p>
         </div>
       </div>
     </div>

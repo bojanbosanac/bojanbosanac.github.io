@@ -1,0 +1,37 @@
+# Bojan Bosanac
+
+> Senior iOS Developer with 12+ years of experience building scalable mobile
+> applications across fintech, healthcare, automotive, sports, and
+> communication platforms. Based in Novi Sad, Serbia (CET), remote-friendly.
+
+## Summary
+
+- Freelance Senior iOS Developer & Backend Developer (2020 — now): production
+  iOS apps end to end (architecture through App Store release and support)
+  for clients in fintech, sports, restaurant management, staffing, and
+  communication; backend integrations in Swift Vapor, Kotlin, and PHP.
+- Product Owner & Mobile Developer, Continental Automotive (Dec 2019 — Nov
+  2020): led mobile architecture on the Remote Vehicle Data (RVD) platform,
+  introduced Clean Architecture, mentored developers.
+- Mobile Team Lead & Senior iOS Developer, Vega IT (2014 — 2019): led mobile
+  development on fintech and healthcare projects (mobile banking, GraphQL
+  healthcare apps), mentored developers.
+- MSc Computer & Control Engineering, Faculty of Technical Sciences,
+  University of Novi Sad (2015).
+
+Core stack: Swift, Objective-C, Kotlin, Java, PHP · MVVM, VIPER, VIP, Clean
+Architecture, Coordinators · REST, GraphQL, Vapor, WebSockets, .NET Core ·
+CI/CD, Agile/Scrum, mentoring, technical leadership.
+
+## Pages
+
+- [Home / CV](https://bosanacbojan.github.io/index.html): experience, stack,
+  contact.
+- [Projects](https://bosanacbojan.github.io/projects.html): detailed case
+  studies (Atlas World Sports, Wisk, Zenjob) — problem, approach, outcome.
+- [CV (PDF)](https://bosanacbojan.github.io/assets/cv.pdf)
+
+## Contact
+
+- Email: bosanacbojan@gmail.com
+- LinkedIn: https://www.linkedin.com/in/bojanbosanac/
