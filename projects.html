@@ -41,7 +41,7 @@
       "position": 4,
       "name": "ParkingNS",
       "url": "https://bosanacbojan.github.io/projects.html#p4",
-      "about": "Personal Android app for paying street parking in Novi Sad by SMS.",
+      "about": "Personal Android app for paying street parking in Novi Sad by SMS, with GPS distance to nearby zones.",
       "creator": { "@type": "Person", "name": "Bojan Bosanac" }
     }
   ]
@@ -196,22 +196,27 @@
     </div>
     <div>
       <h2 class="proj-name">ParkingNS</h2>
-      <p class="proj-lede">Pay for street parking in Novi Sad by SMS — select your zone, confirm your plate, and send in one tap.</p>
+      <p class="proj-lede">Pay for street parking in Novi Sad by SMS — see which zones are nearby, pick your plate, and send in one tap.</p>
       <div class="tag-row">
         <span class="tag tag-outline">Kotlin</span>
+        <span class="tag tag-outline">Jetpack Compose</span>
+        <span class="tag tag-outline">Coroutines &amp; Flow</span>
+        <span class="tag tag-outline">Room</span>
+        <span class="tag tag-outline">Retrofit</span>
+        <span class="tag tag-outline">AI-assisted (Claude Code)</span>
       </div>
       <div class="pao">
         <div>
           <h6>Problem</h6>
-          <p>Paying for street parking in Novi Sad means knowing the right zone's SMS number and re-entering your license plate every time, with no official app to make it easier.</p>
+          <p>Paying for street parking in Novi Sad means knowing which zone you're standing in, remembering that zone's SMS number, and re-typing your license plate every time — with no official app to make it easier.</p>
         </div>
         <div>
           <h6>Approach</h6>
-          <p>Designed and built a self-contained Android app end to end, covering all eight city parking zones (Extra, Red, Blue, White, Daily Ticket, Najlon, Štrand, and Sajam), letting drivers save multiple vehicles and switch between them, and preparing the correct SMS in one tap — no account or sign-up required.</p>
+          <p>Built end to end in Kotlin and Jetpack Compose with an MVI-style architecture. All eight city zones, one-tap SMS (with a fix for Samsung's Messages app), and live GPS distance to nearby zones from 309 mapped street segments — a zone map that refreshes itself from a versioned remote dataset, so new streets ship without an app update. Developed with an AI-assisted workflow using Claude Code: I defined the architecture, conventions and features, and reviewed and shipped every change.</p>
         </div>
         <div>
           <h6>Outcome</h6>
-          <p>Shipped to the Google Play Store as a free, ad-supported app that keeps vehicle data on-device and needs no card details or registration to pay for parking.</p>
+          <p>Shipped to Google Play as Parking Novi Sad (v1.1), a free, ad-supported app in Serbian and English. There's no backend or account: plates and location never leave the device, and no card details or registration are needed to pay.</p>
         </div>
       </div>
     </div>
